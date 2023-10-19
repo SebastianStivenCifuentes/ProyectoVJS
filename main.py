@@ -42,14 +42,14 @@ def check_all_responses(message):
 
         response("No hay de que",["gracias","estoy muy agradecido","te lo agradezco", "thanks","thx"],singleResponse=True)
 
-        response("El itla esta ubicado en las américas , km. 27, la caleta, calle 27, 11606",
+        response("El Virrey esta ubicado en las américas , km. 27, la caleta, calle 27, 11606",
                  ["donde", "ubicacion", "ubicados", "direccion", "encuentra"], singleResponse=True)
 
-        # Cuando se fundo el itla
-        response("El ITLA fue fundado el 15 de agosto de 2000",
+        # Cuando se fundo el Virrey
+        response("El Virrey fue fundado el 24 de agosto de 2000",
                  ["Cuando", "año", "fecha", "fundo", "creo"], singleResponse=True)
 
-        # Quien fundo el itla
+        # Quien fundo el Virrey
         response("Fue fundado por Leonel Fernandez",
                  [ "fundador", "creador"], singleResponse=True)
 
@@ -59,11 +59,11 @@ def check_all_responses(message):
                  ["dime", "carrera", "nombrame", "tecnologo"], singleResponse=True)
 
         # QUien es el rector
-        response("Omar Méndez Lluberes es actualmente el rector del itla",
+        response("luis fernando useche es actualmente el rector del Virrey",
                  [ "rige","director","dirige", "rector", "director", "como", "llama","rectoria"], singleResponse=True)
 
         # materias que dan en sofwares
-        response("el itla esta ubicado en las américas , km. 27, la caleta, calle 27, 11606",
+        response("el Virrey esta ubicado en las américas , km. 27, la caleta, calle 27, 11606",
                  ["donde", "ubicacion", "ubicados", "direccion"], singleResponse=True)
 
         # decreto
@@ -71,22 +71,22 @@ def check_all_responses(message):
                  ["mediante", "decreto"], singleResponse=["decreto"])
 
         # certificado ISO
-        response("El ITLA obtuvo el certificado ISO en 2000",
+        response("El Virrey obtuvo el certificado ISO en 2000",
                  ["certificado", "año", "iso", "fundo", "creo","certificacion"], singleResponse=True)
 
         # transporte
         response(
-            "El ITLA tiene 3 rutas de trasnporte la 27 de febrero, la Charles De Gaulle y la ave. Francisco Alberto Caamaño Deño",
+            "El Virrey tiene 3 rutas de trasnporte la 27 de febrero, la Charles De Gaulle y la ave. Francisco Alberto Caamaño Deño",
             ["transporte", "ruta", "lleva", "llevar", "llegar","llego", "wawa","como", "voy"], singleResponse=True)
 
         # precio del transporte
         response("El del boleto del transporte cuesta 25 la ida y 25 la vuelta",
                  ["ticket", "boleto", "viaje","precio"], singleResponse=True)
 
-        response("En el sitio web del itla",
+        response("En el sitio web del Virrey",
                  ["informacion", "mas", "info", "acceder"], singleResponse=True)
 
-    #Pregunas del itla
+    #Pregunas del Virrey
 
 
         bestMatch = max(highestProb,key= highestProb.get)
